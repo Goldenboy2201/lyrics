@@ -54,7 +54,7 @@ ytLyrics.prototype.loop = function (e) {
 			preTxt.color = "white";
 
 			LTweenLite.to(s.contentLayer, 1, {
-				y : s.contentLayer.y - preTxt.getHeight() - 23
+				y : s.contentLayer.y - preTxt.getHeight() - 20
 			});
 		}
 
